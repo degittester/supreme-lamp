@@ -43,3 +43,27 @@ document.getElementById("step6").addEventListener("mouseover",function(){
 document.getElementById("step6").addEventListener("mouseout",function(){
     document.getElementById("step6-image").style.display="none";
 })
+
+// Step7
+document.getElementById("step7").addEventListener("mouseover",function(){
+    document.getElementById("step7-image").style.display="block";
+})
+document.getElementById("step7").addEventListener("mouseout",function(){
+    document.getElementById("step7-image").style.display="none";
+})
+
+// Step8
+document.getElementById("step8").addEventListener("mouseover",function(){
+    document.getElementById("step8-image").style.display="block";
+})
+document.getElementById("step8").addEventListener("mouseout",function(){
+    document.getElementById("step8-image").style.display="none";
+})
+
+// Step9
+document.getElementById("step9").addEventListener("mouseover",function(){
+    document.getElementById("step9-image").style.display="block";
+})
+document.getElementById("step9").addEventListener("mouseout",function(){
+    document.getElementById("step9-image").style.display="none";
+})
