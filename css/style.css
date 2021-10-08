@@ -54,7 +54,7 @@ a:active{
 .box-1{
 	background-color: rgb(131, 11, 67);
 	color: #fff;
-
+	border-radius: 35px 7px;
 	border: 3px rgb(0, 0, 0) solid;
 	
 	padding: 20px;
@@ -68,9 +68,9 @@ a:active{
 }
 
 .box-1 h1{
+	background-color: linear-gradient(90deg,#FF4EAD,#C173FF);
 	font-family: Tahoma;
 	font-weight: 800;
-	font-style: italic;
 	text-decoration: underline;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
@@ -81,7 +81,9 @@ a:active{
 	border: 3px dotted rgb(233, 43, 9);
 	padding: 20px;
 	margin: 20px 0;
-	
+
+	border-radius: 10px 35px;
+
 }
 
 #step1-image,
