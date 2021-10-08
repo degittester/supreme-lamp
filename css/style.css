@@ -5,7 +5,7 @@
 } */
 
 body{
-	background-color: #f4f4f4;
+	background-color: #f5aaaa;
 	color: #080000;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -13,6 +13,7 @@ body{
 
 	line-height: 1.6em;
 	margin: 0;
+
 }
 
 a{
@@ -53,17 +54,23 @@ a:active{
 .box-1{
 	background-color: rgb(131, 11, 67);
 	color: #fff;
-
+	border-radius: 35px 7px;
 	border: 3px rgb(0, 0, 0) solid;
 	
 	padding: 20px;
 	margin: 20px 0;
+	border-radius: 40px;
+	transition-duration: .5s;
+}
+.box-1:hover{
+	background-color: rgb(194, 62, 123);
+	padding:25px 30px ;
 }
 
 .box-1 h1{
+	background-color: linear-gradient(90deg,#FF4EAD,#C173FF);
 	font-family: Tahoma;
 	font-weight: 800;
-	font-style: italic;
 	text-decoration: underline;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
@@ -71,10 +78,38 @@ a:active{
 }
 
 .box-2{
-	border: 3px dotted #ccc;
+	border: 3px dotted rgb(233, 43, 9);
 	padding: 20px;
 	margin: 20px 0;
+
+	border-radius: 10px 35px;
+
 }
+
+#step1-image,
+#step2-image,
+#step3-image,
+#step4-image,
+#step5-image,
+#step6-image,
+#step7-image,
+#step8-image,
+#step9-image{
+	display:none;
+	transition-duration: 1s;
+}
+
+
+#step6-image{
+	border:dotted 1px;
+	height:fit-content;
+	width:fit-content;
+	padding:10px;
+	background-color: rgb(39, 233, 152);
+	font-weight: 800;
+}
+
+
 
 .categories{
 	border: 1px #ccc solid;
