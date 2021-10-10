@@ -69,7 +69,7 @@ a:active{
 
 .box-1 h1{
 	background-color: linear-gradient(90deg,#FF4EAD,#C173FF);
-	font-family: Tahoma;
+	font-family: ui-monospace;
 	font-weight: 800;
 	text-decoration: underline;
 	text-transform: uppercase;
@@ -118,7 +118,8 @@ a:active{
 }
 
 .categories h2{
-	text-align: center;
+	text-align: center;	
+	font-family: system-ui;
 }
 
 .categories ul{
