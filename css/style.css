@@ -1,4 +1,4 @@
-body{
+body {
 	color: #080000;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -6,93 +6,91 @@ body{
 	line-height: 1.6em;
 	margin: 0;
 }
-.slide{
+.slide {
 	display: none;
 }
-.text{
+
+.text {
 	display:none;
 }
-.slbutton{
+
+.slbutton {
 	height: 10px;
 	width: 2.5rem;
 	margin-right: 1rem;
 	background-color: darkblue;
 }
-button.active{
+
+button.active {
 	background-color:lawngreen ;
 }
-a{
+
+a {
 	text-decoration: none;
 	font-family: 'Questrial', sans-serif;
 	font-size: 1.5rem;
 	color: #000;
 }
 
-a:hover{
+a:hover {
 	color: rgb(74, 84, 231);
 }
 
-a:active{
+a:active {
 	color: green;
 }
 
-li{
+li {
 	padding-top: 10px;
 }
-.container{
+.container {
 	width: 80%;
 	margin: auto;
 }
 
-.button{
+.button {
 	background-color: #333;
-	
 	padding: 10px 15px;
 	border: none;
-
 }
 
-.button:hover{
+.button:hover {
 	background-color: red;
-
 }
 
-.clr{
+.clr {
 	clear: both;
 }
 
-.box-1{
+.box-1 {
 	background-color:rgb(133, 214, 51);
 	color:darkblue;
 	border-radius: 35px 7px;
 	box-shadow: 10px 5px 15px #ffffff21;
-	
 	padding: 20px;
 	margin: 20px 0;
 	border-radius: 10px;
 	transition-duration: .5s;
 }
 
-.flex{
+.flex {
 	display: flex;
 }
-.flex p{
+.flex p {
 	color:white;
-
 	font-size: 1.4rem;
 }
-.box-1:hover{
+.box-1:hover {
 	background-color:darkblue;
 	color:lawngreen;
 	padding:25px 30px ;
 }
 
-.box-1 h1{
+.box-1 h1 {
 	font-weight: 500;
 	letter-spacing: 0.2em;
 	word-spacing: 0.5em;
 	font-size: 2rem;
-	
 }
 
 #step1-image,
@@ -103,60 +101,59 @@ li{
 #step6-image,
 #step7-image,
 #step8-image,
-#step9-image{
+#step9-image {
 	transition-duration: 1s;
-	height: auto;
-	width:auto;
+	width: 100%;
 }
 
-#step6-image{
+#step6-image {
 	border:dotted 1px;
-
 	background-color: rgb(39, 233, 152);
 	font-weight: 800;
 }
 
-.categories{
+.categories {
 	border: 1.5px rgb(201, 201, 201) solid;
 	padding: 10px;
 	border-radius: 15px;
 }
 
-.categories h2{
+.categories h2 {
 	text-align: center;
-color:rgb(255, 255, 255);
+	color:rgb(255, 255, 255);
 	padding-top: 0.5rem;
 	background-color: darkblue;
 	padding-bottom: 0.5rem;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.categories ul{
+.categories ul {
 	padding: 0;
 	padding-left: 20px;
 	list-style: square;
 	list-style: none;
 }
 
-.categories li{
+.categories li {
 	padding-bottom:6px;
 	border-bottom: dotted 1px #333;
 	list-style-image: url('../images/check.png');
 }
 
-.my-list{
+.my-list {
 	background-color: rgb(125, 231, 18);
 }
-.my-list li:nth-child(odd){
+
+.my-list li:nth-child(odd) {
 	background: rgb(201, 201, 201);
 	
 }
 
-.my-list li:nth-child(even){
+.my-list li:nth-child(even) {
 	background: rgb(230, 230, 230);
 }
 
-.carousel{
+.carousel {
 	background-color: rgb(201, 201, 201);
 	align-items: center;
 	margin-bottom: 2rem;
@@ -164,30 +161,34 @@ color:rgb(255, 255, 255);
 	border-top-right-radius: 1rem;
 	padding: 10px;
 }
-.text{
+
+.text {
 	padding-top: 1rem;
 	font-size: 2rem;
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
-.title{
+
+.title {
 	font-family: 'Quicksand', sans-serif;
 }
-.slide img{
-	max-width: 1000px;
-display: block;
-margin: auto;
-	
+
+.slide img {
+	display: block;
+    margin: auto;
+    width: inherit;
+    object-fit: contain;	
 }
-.buttons{
+
+.buttons {
 	display: flex;
 	margin: auto;
 	margin-top: 2rem;
 }
-.carousel button{
-margin: auto;
-width: 200px;
-border: 0px;
 
-display: block;
+.carousel button {
+	margin: auto;
+	width: 200px;
+	border: 0px;
+	display: block;
 }
