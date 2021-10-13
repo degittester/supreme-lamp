@@ -64,7 +64,7 @@ li{
 .box-1{
 	background-color:rgb(133, 214, 51);
 	color:darkblue;
-	border-radius: 35px 7px;
+	border-radius: 35px  7px;
 	box-shadow: 10px 5px 15px #ffffff21;
 	
 	padding: 20px;
@@ -88,10 +88,17 @@ li{
 }
 
 .box-1 h1{
-	font-weight: 500;
+	background-color: linear-gradient(90deg,#FF4EAD,#C173FF);
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
 	letter-spacing: 0.2em;
-	word-spacing: 0.5em;
-	font-size: 2rem;
+	border: 3px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 10px 35px;
 	
 }
 
