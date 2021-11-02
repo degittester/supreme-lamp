@@ -24,8 +24,33 @@ body {
 button.active {
 	background-color:lawngreen ;
 }
+.imgCarousel{
+	height:35rem;
+	width:100%;
+}
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2rem;
+	font-weight: bold;
+	color: rgb(145, 255, 0);
+  }
+
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color:rgb(131, 11, 67);
+	font-size: 20px;
+	padding-top: 8px;
+	margin-bottom:7px;
+}
+
 
 a {
+
 	text-decoration: none;
 	font-family: 'Questrial', sans-serif;
 	font-size: 1.5rem;
@@ -40,13 +65,17 @@ a:active {
 	color: green;
 }
 
+
+/* .container{
+
 li {
 	padding-top: 10px;
 }
 .container {
+
 	width: 80%;
 	margin: auto;
-}
+} 
 
 .button {
 	background-color: #333;
@@ -86,8 +115,14 @@ li {
 	padding:25px 30px ;
 }
 
-.box-1 h1 {
-	font-weight: 500;
+
+.box-1 h1{
+	background-color: linear-gradient(90deg,#FF4EAD,#C173FF);
+	font-family: ui-monospace;
+	font-weight: 800;
+	text-decoration: underline;
+	text-transform: uppercase;
+
 	letter-spacing: 0.2em;
 	word-spacing: 0.5em;
 	font-size: 2rem;
@@ -118,6 +153,7 @@ li {
 	border-radius: 15px;
 }
 
+
 .categories h2 {
 	text-align: center;
 	color:rgb(255, 255, 255);
@@ -125,6 +161,7 @@ li {
 	background-color: darkblue;
 	padding-bottom: 0.5rem;
 	font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
 .categories ul {
@@ -192,3 +229,8 @@ li {
 	border: 0px;
 	display: block;
 }
+
+.my-list li:nth-child(even){
+	background: deeppink;
+}
+
